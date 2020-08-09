@@ -45,6 +45,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/destyle.css/destyle.css",
               "src/styles.scss"
             ],
             "scripts": []
