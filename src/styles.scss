@@ -12,7 +12,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $ng-basis-primary: mat-palette($mat-indigo);
-$ng-basis-accent: mat-palette($mat-pink, A200, A100, A400);
+$ng-basis-accent: mat-palette($mat-pink, a200, a100, a400);
 
 // The warn palette is optional (defaults to red).
 $ng-basis-warn: mat-palette($mat-red);
@@ -45,6 +45,7 @@ html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
